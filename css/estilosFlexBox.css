@@ -1,0 +1,324 @@
+
+/*
+
+++++  DESKTOP FIRST  ++++ 
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&family=Open+Sans&family=Rubik&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   font-family: Open Sans;
+}
+
+a{
+   text-decoration: none;
+   color:white;
+}
+/*SECCION NAVEGACIÓN*/
+
+.navegacionPadre{
+   height:44%; 
+   width: 100%;
+   color:white;
+   background-color: rgb(53, 58, 64);
+   padding-top: 1rem;
+   padding-bottom: 1.2rem;
+   padding-left: 4rem;
+   font-size: 1rem;
+   position:sticky;
+   top:0;
+   display:flex;
+   align-items: center;
+   padding-right: 3rem;
+}
+
+.navegacionIzquierdo{  
+    margin-right: 8rem;
+    margin-left: 0.3rem;
+}
+
+.navegacionDerecho{
+   color:grey;
+   padding-left: 0.6rem;
+   font-size: 0.74rem;
+}
+
+#navegacionDerecho_white{
+   color:white;
+}
+#navegacionDerecho_green{
+   color:rgba(41, 200, 68, 0.9);
+}
+/* FIN SECCION NAVEGACIÓN*/
+
+/****************************************************************************************/
+
+
+/*SECCION CONFERENCIA BS AS */
+.laConferenciaPadre{
+   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("../asserts/img/ba1.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 62vh;
+   color:white;
+   text-align: right;
+   display: flex;
+   align-items: center;
+   justify-content:flex-end;
+   padding: 5rem;
+   margin-bottom: 1rem; 
+}
+
+.laConferenciaParrafo{
+    width: 50%;
+    font-size: 0.7rem; 
+}
+
+.laConferenciaBoton{
+    font-size: 12px;   
+    padding: 0.7vh;
+    margin-top:0.7rem;
+    margin-left:0.3rem;
+    display: inline-block;
+    border: 1px solid gray;   
+    color: aliceblue;
+    border-radius: 4px 4px 4px 4px;
+          -webkit-border-radius: 4px 4px 4px 4px;     
+ }
+
+ #greenButton{
+   background-color:  rgba(41, 200, 68, 0.9);   
+ }
+
+ /*  FIN CONFERENCIA BS AS */
+
+/****************************************************************************************/
+
+
+/* SECCION TARJETAS */
+
+.losOradores{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+ .tituloOrador{
+   text-align: center;
+   margin-bottom: 0.3rem;
+ }
+ 
+.tarjetasOradorPadre{
+   height:100%;
+   width: 81.5%;
+   margin:0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: flex-start;
+   justify-content: space-around;
+   text-align:center;
+   padding-bottom:0.6rem;
+}
+
+.tarjetaOrador{
+    font-size: 12px;
+    text-align: center; 
+    height:95%;
+    width: 30%;
+    border: 1px solid rgb(226, 222, 222);
+    margin-left:1rem;
+    border-radius: 0.4px;
+    text-align: left;
+}
+
+.fotoOrador{
+    height: 55%;
+    width: 100%;
+    scale: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#fotoOrador{
+    width: 100%;
+        border-radius: 5px 5px 0px 0px;
+        object-fit: cover;  
+}
+.textoOrador{
+    padding: 10px;
+} 
+
+.gridComplementosOradores{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+}
+
+.complementosOradores{
+    display: flex;
+}
+
+.tagsOradores{
+   font-size: 10px;   
+   padding: 0.4vh;
+   margin: 0.3vh;
+   display: inline-block;
+   background-color: rgb(252, 193, 6);
+   color: aliceblue;
+   border-radius: 4px 4px 4px 4px;
+         -webkit-border-radius: 4px 4px 4px 4px;     
+}
+
+#blackfontOrador{
+    color: black;
+}
+#greenButtonOrador{
+    background-color: rgb(23, 162, 183);
+}
+#grayButtonOrador{
+    background-color: rgb(105, 119, 122);
+}
+#redButtonOrador{
+    background-color: rgb(220, 53, 70);
+}
+/*FIN SECCION TARJETAS */
+
+ /*SECCION LUGAR Y FECHA*/
+ .lugarYFecha{
+   width: 100%;
+   height: 60vh;
+   background-color: rgb(47, 47, 47);
+   margin: auto;
+   color:white;
+   font-size:12px;
+   display: flex;
+   margin-bottom: 1rem;
+ }
+
+ .left{
+    width: 48%;
+    height: 100%;
+    background-image: url("../asserts/img/honolulu.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+ }
+
+ .right{   
+   width: 48%;
+   height: 100%;
+   padding-left: 1rem;
+   padding-bottom: 5rem;
+   margin-top: 1rem;
+   color:white;
+ }
+ 
+ /*FIN SECCION LUGAR Y FECHA*/
+
+ /****************************************************************************************/
+
+
+ /*
+ SECCION FORMULARIO
+ */
+#fuenteFormulario{
+    font-size: 11px;
+}
+.convierteteEnOradorPadre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 1rem;
+}
+
+#subrayado{
+    text-decoration-line:underline;
+    text-decoration-style:dotted;
+ }
+
+#margenOrador{
+    margin-bottom: 0.5rem;
+}
+#formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 0.6rem;
+}
+
+#dato_1{
+    padding-right:4rem;
+    width: 48%;
+    margin: 0.3rem;
+    border: 1px solid rgb(226, 222, 222);
+}
+
+#dato_2{
+    padding-right: 4rem;
+    width: 48%;
+    margin: 0.3rem;
+    border: 1px solid rgb(226, 222, 222);
+}
+#dialogo{
+    padding: 1rem;
+    margin: 0.3rem;
+    border: 1px solid rgb(226, 222, 222);
+    color:rgb(153, 151, 151);
+    font-size: 18px;
+}
+
+#fuenteFormularioOtro{
+    color:rgb(153, 151, 151);
+    text-align: left;
+    font-size: 11px;
+}
+.enviarBoton{
+    font-size: 16px;   
+    padding: 0.8vh;
+    margin-top:0.7rem;
+    margin-left:0.3rem;
+    display: inline-block;
+    color: aliceblue;
+    border-radius: 4px 4px 4px 4px;
+          -webkit-border-radius: 4px 4px 4px 4px; 
+    background-color: rgb(150, 201, 62);          
+ }
+
+ /* FIN SECCION FORMULARIO */
+
+ /****************************************************************************************/
+
+
+/*FOOTER*/
+ .piePadre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: rgb(47, 47, 47); 
+    font-size: 13px;
+    padding: 1.5rem;
+ }
+
+ /* FIN FOOTER */
+
+
+/*
+
+EN ESTA SECCIÓN IRÍA LO CORRESPNDIENTE A MEDIA QUERY
+PARA TENER UN DISEÑO RESPONSIVE.
+EL NAVEGADOR ESTÁ TOMANDO LOS @media screen EN LUGAR DE LOS
+ESTILOS POR DEFECTO. POR ESTO PUSE LOS MEDIA QUERY EN OTRO PROYECTO
+
+*/

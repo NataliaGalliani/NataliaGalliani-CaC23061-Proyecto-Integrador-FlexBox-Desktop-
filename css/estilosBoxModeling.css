@@ -1,0 +1,193 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&family=Open+Sans&family=Rubik&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   font-family: Open Sans;
+}
+
+a{
+   text-decoration: none;
+}
+/*SECCION NAVEGACIÓN*/
+
+.navegacionPadre{
+   height:50%;
+   width: 100%;
+   margin:0;
+   vertical-align: middle;
+   align-self: start;
+   color:white;
+   background-color: rgb(53, 58, 64);
+   padding-top: 1rem;
+   padding-bottom: 1.5rem;
+   padding-left: 4rem;
+   font-size: 0.8rem;
+   position:sticky;
+   top:0;
+   z-index: 10;
+   
+}
+
+.navegacionIzquierdo{
+   display:inline-block; 
+   width: 10%;
+}
+
+.navegacionDerecho{
+   display:inline-block; 
+   color:grey;
+   margin-left: auto;
+   text-align: right;
+   padding: 1rem;
+}
+
+#navegacionDerecho_green{
+   color:white;
+}
+#margenDerecho_green{
+   color:rgba(41, 200, 68, 0.9);
+}
+/* FIN SECCION NAVEGACIÓN*/
+
+/*SECCION CONFERENCIA BS AS */
+.laConferenciaPadre{
+   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("../asserts/img/ba1.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 62vh;
+   color:white;
+   margin-bottom: 12px;
+   text-align: right;
+   padding-top: 10rem;
+}
+
+.laConferenciaParrafo{
+   width: 50%;
+   font-weight: 400;
+   line-height: 1.5;
+   display: inline-block;
+   /*font-size: 16px; los px son unidades de medidas absolutas, que son fijos*/
+   font-size: 0.7rem; 
+   text-align: right;
+   padding-right: 6rem;
+   
+   /* 1rem = 16px fuente recomendada,
+       fuente grande 1rem = 20px, 
+       fuente muy pequeña 1rem =9px. 
+       el rem es una unidad relativa, relativa al tamaño de fuente que tiene configurado el html, quien lo configura, el user en primera instancia, y nosotros desde el css*/
+}
+/*  FIN CONFERENCIA BS AS */
+
+.laConferenciaBoton{
+   font-size: 12px;
+   text-align: center; /*left, center, right*/
+   /*background-color: rgba(41, 200, 68, 0.9); /*41 167 68  89 145 98*/
+   display: inline-block;
+   width: 120px;
+   height: 35px;
+   border: 1px solid gray;
+   padding-top: 1vh;
+   color: aliceblue;
+   border-radius: 7px 7px 7px 7px;
+         -webkit-border-radius: 7px 7px 7px 7px;
+   margin: 3px;      
+ }
+
+ #greenButton{
+   background-color:  rgba(41, 200, 68, 0.9);
+   
+ }
+
+ /* SECCION TARJETAS */
+
+ .tituloOrador{
+   text-align: center;
+ }
+ 
+.tarjetasOradorPadre{
+   height:100%;
+   width: 81.5%;
+   margin:0 auto;
+   text-align:center;
+   padding-bottom:3rem;
+}
+
+.tagsOradores{
+   display: inline;
+}
+.tarjetaOrador{
+   font-size: 16px;
+   text-align: center; /*left, center, right*/
+   /*background-color: rgba(41, 167, 68, 0.9); /*41 167 68  89 145 98*/
+   display: inline-block;
+   height:95%;
+   width: 30%;
+   border: 1px solid rgb(169, 169, 169);
+   margin-left:15px;
+   border-radius: 5px;
+   text-align: left;
+}
+
+.fotoOrador{
+   height: 55%;
+   width: 100%;
+   border-radius: 5px 5px;
+   object-fit: cover;  
+   }
+
+ .textoOrador{
+   padding: 10px;
+ }  
+ /*FIN SECCION TARJETAS */
+
+ /*SECCION LUGAR Y FECHA*/
+ .lugarYFecha{
+   width: 100%;
+   height: 60vh;
+   background-color: rgb(47, 47, 47);
+   margin: auto;
+   color:white;
+   font-size:12px;
+ }
+
+ .left{
+    width: 48%;
+    height: 100%;
+    display: inline-block;
+    background-image: url("../asserts/img/honolulu.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+ }
+
+ .right{   
+   width: 48%;
+   height: 100%;
+   display: inline-block;
+   padding-left: 1rem;
+   padding-bottom: 5rem;
+   margin-top: 1rem;
+   position:absolute;     
+ }
+ 
+ /*FIN SECCION LUGAR Y FECHA*/
+
+ /*
+ SECCION FORMULARIO
+ */
+
+.subrayado{
+   /*text-decoration:dashed;*/
+   text-decoration: dashed;      
+}
+
+ /*FIN SECCION FORMULARIO*/
